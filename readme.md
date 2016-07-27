@@ -6,6 +6,9 @@
 > A short example with the http://www.dropwizard.io framework!
 
 
+## About Resource
+
+Endpoint: GET http://localhost:12080/example/about
 
 
 ## License

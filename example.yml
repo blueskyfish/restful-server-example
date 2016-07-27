@@ -1,2 +1,13 @@
 
+# Which stage is the application running:
 stage: dev
+
+
+# Server Configuration
+server:
+  type: simple
+  applicationContextPath: /example
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 12080
